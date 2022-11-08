@@ -14,6 +14,14 @@
   </style>
 </head>
 <body>
+  <h1 style="text-align: center; font-family: "Georgia";">Bohdi Hollman - Data Visualization Assignment Four</h1>
+  <hr>
+  <h2 style="text-align: center; font-family: "Georgia";">Hypothesis: The Apostolic Fathers (early authors of Christian works writing in the late first through the early second centuries) widely referenced the canonical New Testament literature.</h2>
+  <p style="border-width:3px; border-style:solid; border-color: black; padding: 1em; background-color: #C1E1C1; font-family: "Georgia";"><i>"At this point it seems appropriate to summarize the writings of the New Testament which have already been mentioned. In the first place must be put the holy quaternion of the Gospels, which are followed by the book of the Acts of the Apostles. After this must be reckoned the Epistles of Paul; next in order the extant former Epistle of John, and likewise the Epistle of Peter must be recognized. After these must be put, if it really seems right, the Apocalypse of John, concerning which we shall give the different opinions at the proper time. These, then, [are to placed] among the recognized books.
+    Of the disputed books, which are nevertheless familiar to the majority, there are extant the Epistle of James, as it is called; and that of Jude; and the second Epistle of Peter; and those that are called the Second and Third of John, whether they belong to the evangelist or to another of the same name."</i><br><br>-Eusebius of Caesarea, the fourth-century Christian historian</p>
+  <hr>
+  <br>
+  <h4 class="center">Fg 1: References Made by the Apostolic Fathers to the Canonical New Testament Literature</h4>
   <div class="center" id="vis1"/>
   <script>
     const spec = {
@@ -147,6 +155,7 @@
 };
     vegaEmbed("#vis1", spec, {mode: "vega"}).then(console.log).catch(console.warn);
   </script>
+  </div>
   <div id="vis2"/>
   <script>
     const spec2 = {
@@ -221,5 +230,6 @@
 };
     vegaEmbed("#vis2", spec2, {mode: "vega-lite"}).then(console.log).catch(console.warn);
   </script>
+  </div>
 </body>
 </html>
